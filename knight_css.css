@@ -1,0 +1,36 @@
+.blackField {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  position: absolute;
+  background-color: grey;
+}
+.whiteField {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  position: absolute;
+  background-color: white;
+}
+
+#board {
+  position: relative;
+}
+
+#points {
+  cursor:pointer;
+}
+
+.whiteKnight {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Chess_piece_-_White_knight.JPG/339px-Chess_piece_-_White_knight.JPG');
+  background-position: 40px 45px;
+  background-size: cover;
+}
+.blackKnight {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chess_piece_-_Black_knight.JPG/348px-Chess_piece_-_Black_knight.JPG');
+  background-position: 40px 45px;
+  background-size: cover;
+}
+.go {
+  background-color: red;
+}
